@@ -13,8 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"lazygo/core/timex"
 	"syscall"
+
+	"github.com/weblazy/core/timex"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"lazygo/core/errorx"
+	"github.com/weblazy/core/errorx"
 )
 
 type ResourceManager struct {

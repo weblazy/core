@@ -3,7 +3,7 @@ package redis
 import (
 	"io"
 
-	"lazygo/core/syncx"
+	"github.com/weblazy/core/syncx"
 
 	red "github.com/go-redis/redis"
 )

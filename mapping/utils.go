@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"lazygo/core/stringx"
+	"github.com/weblazy/core/stringx"
 )
 
 const (

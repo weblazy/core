@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 // DefaultMemProfileRate is the default memory profiling rate.

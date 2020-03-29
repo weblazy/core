@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"

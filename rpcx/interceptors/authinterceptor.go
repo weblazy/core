@@ -3,7 +3,7 @@ package interceptors
 import (
 	"context"
 
-	"lazygo/core/rpcx/auth"
+	"github.com/weblazy/core/rpcx/auth"
 
 	"google.golang.org/grpc"
 )

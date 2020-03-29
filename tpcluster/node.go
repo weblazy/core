@@ -1,13 +1,12 @@
 package tpcluster
 
 import (
-	"github.com/weblazy/teleport"
-	"lazygo/core/consistenthash/unsafehash"
-	"lazygo/core/database/redis"
-	"lazygo/core/logx"
-	"lazygo/core/mapreduce"
-	"lazygo/core/syncx"
-	"lazygo/core/timingwheel"
+	"github.com/weblazy/core/consistenthash/unsafehash"
+	"github.com/weblazy/core/database/redis"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/mapreduce"
+	"github.com/weblazy/core/syncx"
+	"github.com/weblazy/core/timingwheel"
 
 	"strconv"
 	"time"

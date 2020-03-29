@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"lazygo/core/stringx"
+	"github.com/weblazy/core/stringx"
 )
 
 const (

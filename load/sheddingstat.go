@@ -3,7 +3,7 @@ package load
 import (
 	"sync/atomic"
 	"time"
-	// "lazygo/core/stat"
+	// "github.com/weblazy/core/stat"
 )
 
 type (

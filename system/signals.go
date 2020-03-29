@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 const timeFormat = "0102150405"

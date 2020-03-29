@@ -3,7 +3,7 @@ package sqlx
 import (
 	"database/sql"
 
-	"lazygo/core/breaker"
+	"github.com/weblazy/core/breaker"
 )
 
 var ErrNotFound = sql.ErrNoRows

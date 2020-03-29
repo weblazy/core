@@ -1,7 +1,7 @@
 package collection
 
 import (
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 const (

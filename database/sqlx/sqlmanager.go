@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"lazygo/core/syncx"
+	"github.com/weblazy/core/syncx"
 )
 
 const (

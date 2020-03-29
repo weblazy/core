@@ -1,7 +1,7 @@
 package threading
 
 import (
-	"lazygo/core/fx"
+	"github.com/weblazy/core/fx"
 )
 
 type TaskRunner struct {

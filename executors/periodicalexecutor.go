@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"lazygo/core/system"
-	"lazygo/core/threading"
+	"github.com/weblazy/core/system"
+	"github.com/weblazy/core/threading"
 )
 
 type (

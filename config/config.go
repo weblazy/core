@@ -2,8 +2,9 @@ package config
 
 import (
 	"encoding/json"
-	"lazygo/core/fs"
-	"lazygo/core/logx"
+
+	"github.com/weblazy/core/fs"
+	"github.com/weblazy/core/logx"
 )
 
 const (
@@ -26,6 +27,9 @@ type ApiConfig struct {
 	Port      int64
 	MaxMemory int64
 	Timeout   int64
+	ImagePath string
+	TplPath   string
+	ConfPath  string
 }
 
 type RpcConfig struct {

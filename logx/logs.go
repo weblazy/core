@@ -17,8 +17,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"lazygo/core/iox"
-	"lazygo/core/stringx"
+	"github.com/weblazy/core/iox"
+	"github.com/weblazy/core/stringx"
 )
 
 const (

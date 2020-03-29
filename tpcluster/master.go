@@ -3,11 +3,10 @@ package tpcluster
 import (
 	"time"
 
-	"lazygo/core/logx"
-	"lazygo/core/timingwheel"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/timingwheel"
 
 	"github.com/henrylee2cn/goutil"
-	"github.com/weblazy/teleport"
 )
 
 type (

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"

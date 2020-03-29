@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"lazygo/core/errorx"
-	"lazygo/core/logx"
+	"github.com/weblazy/core/errorx"
+	"github.com/weblazy/core/logx"
 )
 
 const (

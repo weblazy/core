@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"lazygo/core/database/redis"
-	"lazygo/core/logx"
-	"lazygo/core/syncx"
+	"github.com/weblazy/core/database/redis"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/syncx"
 )
 
 const (

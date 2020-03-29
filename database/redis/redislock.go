@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 
 	red "github.com/go-redis/redis"
 )

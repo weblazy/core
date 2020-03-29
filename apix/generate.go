@@ -3,14 +3,13 @@ package apix
 import (
 	"fmt"
 	"io/ioutil"
-	"lazygo/conf"
 	"os"
 	"strings"
 )
 
 func getfiles(path string) {
 	//读取模板文件
-	b, err := ioutil.ReadFile(conf.TPL_PATH + "/router.tpl")
+	b, err := ioutil.ReadFile(ApiConfig.TplPath + "/router.tpl")
 	if err != nil {
 		panic(err)
 	}
@@ -32,7 +31,7 @@ func getfiles(path string) {
 	}
 	router_str = strings.Replace(router_str, "[CONTROLLER_MAP]", controllers_str, -1)
 	data := []byte(router_str)
-	if ioutil.WriteFile(conf.CONF_PATH+"/router.go", data, 0644) == nil {
+	if ioutil.WriteFile(ApiConfig.ConfPath+"/router.go", data, 0644) == nil {
 		fmt.Println("写入文件成功:", router_str)
 	}
 }

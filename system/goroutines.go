@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 const (

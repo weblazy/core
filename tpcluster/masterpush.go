@@ -1,10 +1,7 @@
 package tpcluster
 
 import (
-	// "encoding/json"
-	// "fmt"
-	"github.com/weblazy/teleport"
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 type (

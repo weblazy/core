@@ -1,8 +1,7 @@
 package tpcluster
 
 import (
-	"github.com/weblazy/teleport"
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 type NodeCall struct {

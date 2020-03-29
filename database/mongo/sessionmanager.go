@@ -4,8 +4,8 @@ import (
 	"io"
 	"time"
 
-	"lazygo/core/logx"
-	"lazygo/core/syncx"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/syncx"
 
 	"github.com/globalsign/mgo"
 )

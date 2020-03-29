@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"lazygo/core/breaker"
-	"lazygo/core/logx"
-	"lazygo/core/timex"
+	"github.com/weblazy/core/breaker"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/timex"
 
 	"github.com/globalsign/mgo"
 )

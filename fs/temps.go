@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"lazygo/core/hash"
+	"github.com/weblazy/core/hash"
 )
 
 // TempFileWithText creates the temporary file with the given content,

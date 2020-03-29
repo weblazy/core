@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 const statInterval = time.Minute

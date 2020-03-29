@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"lazygo/core/fx"
+	"github.com/weblazy/core/fx"
 )
 
 func GoSafe(fn func()) {

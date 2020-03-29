@@ -3,7 +3,7 @@ package mongo
 import (
 	"time"
 
-	"lazygo/core/breaker"
+	"github.com/weblazy/core/breaker"
 
 	"github.com/globalsign/mgo"
 )

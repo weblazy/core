@@ -3,7 +3,7 @@ package rpcx
 import (
 	"time"
 
-	"lazygo/core/rpcx/clientinterceptors"
+	"github.com/weblazy/core/rpcx/clientinterceptors"
 
 	"google.golang.org/grpc"
 )

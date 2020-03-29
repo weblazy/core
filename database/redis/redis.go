@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"lazygo/core/breaker"
-	"lazygo/core/mapping"
+	"github.com/weblazy/core/breaker"
+	"github.com/weblazy/core/mapping"
 
 	red "github.com/go-redis/redis"
 )

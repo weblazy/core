@@ -1,6 +1,6 @@
 package queue
 
-import "lazygo/core/errorx"
+import "github.com/weblazy/core/errorx"
 
 type MultiQueuePusher struct {
 	name    string

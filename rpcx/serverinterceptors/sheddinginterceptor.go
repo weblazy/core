@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"lazygo/core/load"
+	"github.com/weblazy/core/load"
 
 	"google.golang.org/grpc"
 )

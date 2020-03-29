@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"lazygo/core/collection"
-	// "lazygo/core/stat"
-	// "lazygo/core/rpcx"
-	"lazygo/core/syncx"
-	"lazygo/core/timex"
+	"github.com/weblazy/core/collection"
+	// "github.com/weblazy/core/stat"
+	// "github.com/weblazy/core/rpcx"
+	"github.com/weblazy/core/syncx"
+	"github.com/weblazy/core/timex"
 )
 
 const (

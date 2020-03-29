@@ -1,11 +1,12 @@
 package rpcx
 
 import (
+	"time"
+
+	"github.com/weblazy/core/rpcx/auth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/balancer/roundrobin"
 	"google.golang.org/grpc/connectivity"
-	"lazygo/core/rpcx/auth"
-	"time"
 )
 
 type DirectClient struct {

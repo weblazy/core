@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 )
 
 var ErrNoAvailablePusher = errors.New("no available pusher")

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"lazygo/core/timex"
+	"github.com/weblazy/core/timex"
 )
 
 type (

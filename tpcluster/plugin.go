@@ -1,8 +1,7 @@
 package tpcluster
 
 import (
-	"github.com/weblazy/teleport"
-	"lazygo/core/database/redis"
+	"github.com/weblazy/core/database/redis"
 )
 
 type (

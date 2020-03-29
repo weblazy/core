@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"lazygo/core/errorx"
-	"lazygo/core/syncx"
-	"lazygo/core/threading"
+	"github.com/weblazy/core/errorx"
+	"github.com/weblazy/core/syncx"
+	"github.com/weblazy/core/threading"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	"lazygo/core/breaker"
+	"github.com/weblazy/core/breaker"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

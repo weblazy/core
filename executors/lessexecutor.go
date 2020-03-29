@@ -3,8 +3,8 @@ package executors
 import (
 	"time"
 
-	"lazygo/core/syncx"
-	"lazygo/core/timex"
+	"github.com/weblazy/core/syncx"
+	"github.com/weblazy/core/timex"
 )
 
 type LessExecutor struct {

@@ -6,11 +6,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"lazygo/core/fx"
-	"lazygo/core/logx"
-	// "lazygo/core/stat"
-	"lazygo/core/threading"
-	"lazygo/core/timex"
+	"github.com/weblazy/core/fx"
+	"github.com/weblazy/core/logx"
+
+	// "github.com/weblazy/core/stat"
+	"github.com/weblazy/core/threading"
+	"github.com/weblazy/core/timex"
 )
 
 const queueName = "queue"

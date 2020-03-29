@@ -3,13 +3,14 @@ package rpcx
 import (
 	"net"
 
-	"google.golang.org/grpc"
-	"lazygo/core/logx"
-	"lazygo/core/rpcx/auth"
-	"lazygo/core/rpcx/interceptors"
-	"lazygo/core/rpcx/serverinterceptors"
-	"lazygo/core/system"
 	"time"
+
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/rpcx/auth"
+	"github.com/weblazy/core/rpcx/interceptors"
+	"github.com/weblazy/core/rpcx/serverinterceptors"
+	"github.com/weblazy/core/system"
+	"google.golang.org/grpc"
 )
 
 type (

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"lazygo/core/logx"
-	"lazygo/core/timex"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/timex"
 )
 
 const slowThreshold = time.Millisecond * 500

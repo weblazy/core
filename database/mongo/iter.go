@@ -1,7 +1,7 @@
 package mongo
 
 import (
-	"lazygo/core/breaker"
+	"github.com/weblazy/core/breaker"
 
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"

@@ -1,7 +1,7 @@
 package rpcx
 
 import (
-	"lazygo/core/database/redis"
+	"github.com/weblazy/core/database/redis"
 )
 
 type (

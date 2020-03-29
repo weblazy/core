@@ -5,8 +5,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"lazygo/core/collection"
-	"lazygo/core/mathx"
+	"github.com/weblazy/core/collection"
+	"github.com/weblazy/core/mathx"
 )
 
 const (

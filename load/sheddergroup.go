@@ -3,7 +3,7 @@ package load
 import (
 	"io"
 
-	"lazygo/core/syncx"
+	"github.com/weblazy/core/syncx"
 )
 
 type ShedderGroup struct {

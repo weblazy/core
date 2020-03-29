@@ -3,8 +3,8 @@ package mongo
 import (
 	"time"
 
-	"lazygo/core/executors"
-	"lazygo/core/logx"
+	"github.com/weblazy/core/executors"
+	"github.com/weblazy/core/logx"
 
 	"github.com/globalsign/mgo"
 )

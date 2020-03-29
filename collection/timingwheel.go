@@ -3,9 +3,10 @@ package collection
 import (
 	"container/list"
 	"fmt"
-	"lazygo/core/threading"
-	"lazygo/core/timex"
 	"time"
+
+	"github.com/weblazy/core/threading"
+	"github.com/weblazy/core/timex"
 )
 
 type (

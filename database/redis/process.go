@@ -3,9 +3,10 @@ package redis
 import (
 	"strings"
 
-	"lazygo/core/logx"
-	"lazygo/core/mapping"
 	"time"
+
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/mapping"
 
 	red "github.com/go-redis/redis"
 )

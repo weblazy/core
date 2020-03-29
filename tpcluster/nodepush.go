@@ -1,9 +1,8 @@
 package tpcluster
 
 import (
-	"github.com/weblazy/teleport"
-	"lazygo/core/logx"
-	"lazygo/core/mapreduce"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/mapreduce"
 )
 
 type NodePush struct {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"lazygo/core/executors"
-	"lazygo/core/logx"
+	"github.com/weblazy/core/executors"
+	"github.com/weblazy/core/logx"
 )
 
 const (

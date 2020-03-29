@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"lazygo/core/logx"
-	"lazygo/core/mapping"
+	"github.com/weblazy/core/logx"
+	"github.com/weblazy/core/mapping"
 )
 
 func escape(input string) string {

@@ -3,7 +3,7 @@ package redis
 import (
 	"fmt"
 
-	"lazygo/core/logx"
+	"github.com/weblazy/core/logx"
 
 	red "github.com/go-redis/redis"
 )

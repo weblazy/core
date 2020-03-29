@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"lazygo/core/collection"
-	"lazygo/core/database/redis"
+	"github.com/weblazy/core/collection"
+	"github.com/weblazy/core/database/redis"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

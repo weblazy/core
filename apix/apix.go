@@ -7,10 +7,6 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"lazygo/conf"
-	"lazygo/core/apix/httphandler"
-	"lazygo/core/config"
-	"lazygo/core/logx"
 	"net/http"
 	"os"
 	"reflect"
@@ -18,6 +14,10 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/weblazy/core/apix/httphandler"
+	"github.com/weblazy/core/config"
+	"github.com/weblazy/core/logx"
 )
 
 var (
@@ -139,11 +139,11 @@ func (p *ControllerRegister) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if urlPath == "/favicon.ico" || urlPath == "/robots.txt" {
-		file := conf.IMG_PATH + "/favicon.ico"
+		file := ApiConfig.ImagePath + "/favicon.ico"
 		f, err := os.Open(file)
 		defer f.Close()
 		if err != nil && os.IsNotExist(err) {
-			file = conf.IMG_PATH + "/default.png"
+			file = ApiConfig.ImagePath + "/default.png"
 		}
 		http.ServeFile(w, r, file)
 		return

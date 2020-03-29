@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"sync"
 
-	"lazygo/core/mapping"
+	"github.com/weblazy/core/mapping"
 )
 
 const (
