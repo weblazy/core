@@ -1,7 +1,7 @@
 package syncx
 
 import (
-	"github.com/henrylee2cn/goutil"
+	"github.com/weblazy/goutil"
 	"sync"
 )
 

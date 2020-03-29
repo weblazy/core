@@ -7,6 +7,7 @@ import (
 	"github.com/weblazy/core/mapreduce"
 	"github.com/weblazy/core/syncx"
 	"github.com/weblazy/core/timingwheel"
+	tp "github.com/weblazy/teleport"
 
 	"strconv"
 	"time"

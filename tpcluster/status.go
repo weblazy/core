@@ -1,7 +1,7 @@
 package tpcluster
 
 import (
-	"github.com/weblazy/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 var (

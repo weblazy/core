@@ -6,7 +6,8 @@ import (
 	"github.com/weblazy/core/logx"
 	"github.com/weblazy/core/timingwheel"
 
-	"github.com/henrylee2cn/goutil"
+	"github.com/weblazy/goutil"
+	tp "github.com/weblazy/teleport"
 )
 
 type (
