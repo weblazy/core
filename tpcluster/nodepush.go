@@ -16,7 +16,7 @@ func (n *NodePush) Ping(ping *string) *tp.Status {
 	return nil
 }
 
-func (n *NodePush) SendToUid(msg *Message) (int, *tp.Status) {
+func (n *NodePush) SendToUid(msg *Message) *tp.Status {
 	sessionMap, ok := nodeInfo.uidSessions.LoadMap(msg.uid)
 	if ok {
 		mapreduce.MapVoid(func(source chan<- interface{}) {
@@ -31,5 +31,5 @@ func (n *NodePush) SendToUid(msg *Message) (int, *tp.Status) {
 			)
 		})
 	}
-	return 0, nil
+	return nil
 }
