@@ -138,6 +138,9 @@ func (c *ConcurrentDoubleMap) Delete(key1, key2 string) {
 		return
 	}
 	delete(oldMap, key2)
+	if len(oldMap) == 0 {
+		delete(shard.items, key1)
+	}
 	atomic.AddInt32(&c.length, -1)
 }
 
@@ -150,6 +153,9 @@ func (c *ConcurrentDoubleMap) DeleteWithPlugin(key1, key2 string, plugin func())
 		return
 	}
 	delete(oldMap, key2)
+	if len(oldMap) == 0 {
+		delete(shard.items, key1)
+	}
 	atomic.AddInt32(&c.length, -1)
 	plugin()
 }
@@ -161,6 +167,9 @@ func (c *ConcurrentDoubleMap) DeleteWithoutLock(key1, key2 string) {
 		return
 	}
 	delete(oldMap, key2)
+	if len(oldMap) == 0 {
+		delete(shard.items, key1)
+	}
 	atomic.AddInt32(&c.length, -1)
 }
 
